@@ -44,6 +44,16 @@
   width: 20px;
   height: 20px;
   border: 1px solid #838383;
+  background-color: #fff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.form__checkbox:checked {
+  background-color: #1878dc;
+  background-image: url(../images/check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .form__label {
   font-family: "Inter", Arial, sans-serif;
@@ -56,11 +66,4 @@
   display: flex;
   justify-content: center;
   gap: 12px;
-}
-.form__checkbox {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-color: #1878dc;
-  background-image: url(../images/check.svg);
 }
