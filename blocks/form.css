@@ -53,7 +53,7 @@
   line-height: 20px;
   color: #000;
 }
-.form__label_checkbox_wrapper {
+.form__label_type_checkbox {
   display: flex;
   justify-content: center;
   gap: 12px;
@@ -63,8 +63,6 @@ input[type="checkbox"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-}
-input[type="checkbox"] {
   background-color: #1878dc;
   background-image: url(../images/check.svg);
 }
